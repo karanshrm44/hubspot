@@ -1,0 +1,103 @@
+.home_product_feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 112px;
+    max-width: 960px;
+    
+}
+
+.hsg_page_width {
+    margin:0 auto;
+    padding: 0px 32px;
+    box-sizing: content-box;
+}
+
+.home_product_feature_full_width {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    cursor: pointer;
+    background:#fff;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    box-shadow: 0 0 11px #eaf0f6;
+    padding:32px;
+}
+.home_product_feature_full_width_image {
+    padding: 0px 9%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.home_product_feature_full_width_image img {
+    width: 100%;
+    height: 150px;
+}
+.home_product_feature_full_width_button {
+display: block;
+text-align: center;
+margin-top: 40px;
+clear:both;
+}
+.home_product_feature_full_width_button a {
+    padding:12px 24px;
+    font-size: 14px;
+    background-color: #ff7a59;
+    color:#fff;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.home_product_text {
+    width:50%;
+    display: inline-block;
+}
+
+.home_product_text h4 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.home_product_text p {
+    font-size: 14px;
+    margin:16px 0px;
+    font-family: inherit;
+}
+.home_product_text span {
+    margin-top:32px;
+    margin-bottom:15px;
+    font-weight: 600;
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+
+}
+.home_product_text span::after {
+    content: "";
+    margin-left: 10px;
+    height: 10px;
+    position: absolute;
+    border-bottom: 1px solid #e0e6ed;
+    width: 100%;
+    
+}
+
+.home_growth_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_growth_list p::before {
+    content: '';
+    background: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+   margin-bottom:-5px;
+   margin-right: 10px;
+}
